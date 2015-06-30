@@ -24,14 +24,6 @@
     </exec>
   </target>
 
-  <target name="phpcpd">
-    <exec executable="{$toolsdir}phpcpd">
-      <arg line="
-         --log-pmd ${output}/phpcpd.xml .
-      " />
-    </exec>
-  </target>
-
   <target name="pdepend">
     <exec executable="${toolsdir}pdepend">
       <arg line="
