@@ -12,15 +12,7 @@
   <mkdir dir="${output}/pdepend/" />
   </target>
 
-  <target name="build" depends="init, test, phpcs, phpmd, phpcpd, pdepend">
-  </target>
-
-  <target name="test">
-    <exec executable="${toolsdir}phpunit" failonerror="true">
-      <arg line="--coverage-clover ${output}/CodeCoverage/clover.xml 
-        --coverage-html ${output}/CodeCoverage/ 
-        ."/>
-    </exec>
+  <target name="build" depends="init, phpcs, phpmd, phpcpd, pdepend">
   </target>
 
   <target name="phpcs">
