@@ -12,7 +12,7 @@
   <mkdir dir="${output}/pdepend/" />
   </target>
 
-  <target name="build" depends="init, phpcs, phpcpd, pdepend">
+  <target name="build" depends="init, phpcs, pdepend">
   </target>
 
   <target name="phpcs">
