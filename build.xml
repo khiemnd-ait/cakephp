@@ -4,7 +4,7 @@
  <property name="toolsdir" value="${basedir}/vendor/bin/"/>
  
  <target name="build"
-   depends="prepare,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdoc,cake,phpcb"/>
+   depends="prepare,lint,phploc,pdepend,phpcs-ci,phpcpd,phpdoc,cake,phpcb"/>
    
 
  <target name="build-parallel"
