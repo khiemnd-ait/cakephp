@@ -15,7 +15,9 @@
   <parallel threadCount="2">
    <sequential>
     <antcall target="pdepend"/>
+    <!--
     <antcall target="phpmd-ci"/>
+  -->
    </sequential>
    <antcall target="phpcpd"/>
    <antcall target="phpcs-ci"/>
@@ -73,7 +75,7 @@
    <arg path="${basedir}/lib/Cake" />
   </exec>
  </target>
-
+<!--
  <target name="phpmd"
          description="Perform project mess detection using PHPMD and print human readable output. Intended for usage on the command line before committing.">
   <exec executable="${toolsdir}phpmd">
@@ -101,6 +103,7 @@
    <arg value="${basedir}/lib/Cake/Console/Templates" />
   </exec>
  </target>
+-->
 
  <target name="phpcs"
          description="Find coding standard violations using PHP_CodeSniffer and print human readable output. Intended for usage on the command line before committing.">
