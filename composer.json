@@ -5,6 +5,9 @@
         "phpmd/phpmd" : "@stable",
         "squizlabs/php_codesniffer": "2.*",
         "theseer/phpdox": "dev-master",
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "*",
+        "sebastian/phpcpd": "*",
+        "phpdocumentor/phpdocumentor": "2.*",
+        "mayflower/php-codebrowser": "~1.1"
     }
 }
