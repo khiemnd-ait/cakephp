@@ -15,6 +15,7 @@ return array(
     'PhpCollection' => array($vendorDir . '/phpcollection/phpcollection/src'),
     'Parsedown' => array($vendorDir . '/erusev/parsedown'),
     'PHPMD\\' => array($vendorDir . '/phpmd/phpmd/src/main/php'),
+    'PHPCodeBrowser\\' => array($vendorDir . '/mayflower/php-codebrowser/src'),
     'PDepend\\' => array($vendorDir . '/pdepend/pdepend/src/main/php'),
     'Metadata\\' => array($vendorDir . '/jms/metadata/src'),
     'KevinGH\\Version' => array($vendorDir . '/kherge/version/src/lib'),
